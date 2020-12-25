@@ -1,0 +1,240 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	border: 4px steelblue solid;
+	font-size: 16px;
+	width: 900px;
+	margin: auto;
+	-webkit-box-shadow: 0 0 14px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 14px 10px rgba(0,0,0,0.75);
+	box-shadow: 0 0 14px 10px rgba(0,0,0,0.75);
+}
+
+header {
+	padding-bottom: 20px;
+	background-image: linear-gradient(#fff, #b5c8e0);
+	height: 120px;
+}
+
+img#logo {
+	float: left;
+	margin: 15px 40px 0 30px;
+}
+
+#shape {
+	color: steelblue;
+	font-size: 34px;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px steelblue;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+#slogan {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+nav {
+	display: table;
+	width: 100%;
+}
+
+#bar {
+	display: table-row;
+}
+
+.tab, .dropdown {
+	display: table-cell;
+	width: 20%;
+	background: steelblue;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.tab a, .dropdown, .dropdown-links a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.dropdown-links {
+	display: none;
+	position: absolute;
+	background-color: steelblue;
+	z-index: 1;
+	width: 180px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.dropdown-links a {
+	padding: 10px 0;
+}
+
+.dropdown-links a:hover, .tab:hover {
+	background-color: lightsteelblue;
+	padding: 10px 0;
+}
+
+.dropdown:hover .dropdown-links, .dropdown-links a {
+	display: block;
+}
+
+.dropdown:hover {
+	cursor: context-menu;
+}
+
+.active a, .active {
+	color: black;
+}
+
+section {
+	float: right;
+	width: 570px;
+	min-height: 650px;
+	padding-right: 12px;
+	margin: 20px 15px 25px 20px;
+}
+
+h1 {
+	font-size: 26px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+h1.center {
+	text-align: center;
+}
+
+h2, #resources {
+	font-size: 20px;
+	line-height: 16px;
+	margin: 20px 0;
+}
+
+h3 {
+	line-height: 16px;
+	margin: 15px 0;
+	font-size: 17px;
+}
+
+h3, #resources, ul li a:hover {
+	font-weight: bold;
+	color: maroon;
+	text-decoration: none;
+}
+
+table {
+	width: 100%;
+	padding-right: 20px;
+}
+
+th {
+	text-align: left;
+	color: maroon;
+	padding-bottom: 10px;
+}
+
+th.side {
+	vertical-align: top;
+	color: #000;
+}
+
+.right {
+	text-align: right;
+}
+
+.note {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+
+legend {
+	font-weight: bold;
+}
+
+form.plan {
+	margin-bottom: 150px;
+}
+
+.plan p {
+	padding-left: 3px;
+	margin: 10px 0;
+}
+
+.plan input, textarea {
+	margin: 5px 5px 5px 45px;
+}
+
+.plan textarea {
+	width: 485px;
+	height: 90px;
+}
+
+table.meals input {
+	width: 220px;
+	margin: 3px;
+}
+
+table.meals select {
+	width: 226px;
+	margin: 3px;
+}
+
+table.meals td {
+	width: 40px;
+}
+
+.validation:invalid {
+	border: 2px solid maroon;
+}
+
+.validation:valid {
+	border: 1px solid #000;
+}
+
+aside {
+	margin: 30px 5px 10px 30px;
+}
+
+ul {
+	padding-left: 12px;
+}
+
+ul li {
+	line-height: 25px;
+}
+
+ul li a {
+	font-weight: bold;
+	color: steelblue;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+	line-height: 0;
+	width: 100%;
+}
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: steelblue;
+	color: #fff;
+}
+
+footer div {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-size: 14px;
+}
